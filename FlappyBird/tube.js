@@ -13,8 +13,8 @@ class Tube {
 
     }
     randomize() { 
-        this.gapHeight = random(100, 150)
-        this.tubeHeight = random(150, height - 350)
+        this.gapHeight = random(200, 400)
+        this.tubeHeight = random(100, height - 350)
     }
 
     display() {

@@ -17,7 +17,7 @@ function preload() {
 
 function setup() {
     createCanvas(window.innerWidth, window.innerHeight)
-    game = new Game(50);
+    game = new Game(500);
 }
 
 function draw() {
